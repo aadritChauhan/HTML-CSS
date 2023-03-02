@@ -1,0 +1,416 @@
+body {
+  background-color: #272327;
+  font-family: "Inconsolata", monospace;
+  color: #d9d9d9;
+}
+/* Header */
+
+header {
+  background-color: #963950;
+  width: 100%;
+}
+
+#logo {
+  width: 102px;
+  height: 100%;
+}
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  font-size: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  column-gap: 50px;
+  row-gap: 20px;
+}
+a {
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 19px;
+  transition: all 0.5s linear;
+}
+
+a:hover {
+  color: black;
+}
+
+.flexLogo h2 {
+  font-size: 27px;
+  margin: auto;
+}
+
+.flexLogo img {
+  height: 100%;
+}
+.flexLogo {
+  display: flex;
+  width: 300px;
+}
+
+/* Main */
+
+span {
+  color: #963950;
+  display: block;
+}
+
+.btn {
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  transform: scale(1.3, 1.3);
+  background-color: #d9d9d9;
+  color: #963950;
+}
+.tiles {
+  transition: all 0.2s linear;
+}
+
+.tiles:hover {
+  transform: scale(1.2, 1.2);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  text-align: center;
+}
+
+.pAlign {
+  width: 500px;
+  margin: auto;
+  line-height: 4;
+  font-size: 20px;
+}
+
+.projects h2 {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  font-size: 35px;
+}
+
+.flexhead {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projFlex {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  column-gap: 80px;
+  row-gap: 80px;
+}
+
+.tiles img {
+  width: 100%;
+  height: 100%;
+}
+
+.tiles {
+  width: 300px;
+  height: 300px;
+  flex: 29%;
+}
+
+.projBut {
+  display: none;
+}
+.flexMain {
+  display: flex;
+}
+.mainInfo {
+  color: #d9d9d9;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.mainImg {
+  height: 400px;
+  width: 400px;
+  margin-left: auto;
+  padding-top: 15px;
+}
+
+.mainImg img {
+  width: 100%;
+  height: 100%;
+}
+
+.proj a:hover {
+  transform: scale(1.3, 1.3);
+}
+
+h2 {
+  text-align: center;
+}
+
+.proj {
+  margin-left: 70px;
+}
+
+/* Form */
+form {
+  margin-top: 280px;
+}
+.formMargin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+label {
+  font-size: 21px;
+}
+.formFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Footer */
+footer {
+  background-color: #963950;
+  padding: 20px;
+  font-size: 25px;
+}
+/* Buttons */
+.secondButton {
+  float: right;
+}
+
+.heroButtons {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.btn {
+  border-radius: 25px;
+  background-color: #963950;
+  color: #d9d9d9;
+  font-size: larger;
+}
+.btn {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 121px;
+  margin-bottom: 60px;
+  padding: 10px 30px;
+}
+
+.Formbtn {
+  text-align: center;
+}
+
+/* Media query for Tablet */
+@media screen and (max-width: 768px) {
+  .formFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .tiles {
+    flex: 50%;
+  }
+  .name {
+    margin-bottom: 50px;
+  }
+  .projects h2 {
+    font-size: 26px;
+  }
+  label {
+    font-size: 16px;
+  }
+  .flexLogo {
+    width: 150px;
+  }
+  .btn {
+    font-size: medium;
+    padding: 7px 14px;
+  }
+  footer {
+    font-size: 18px;
+  }
+  .pAlign {
+    font-size: 16px;
+    width: 300px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  a {
+    font-size: 17px;
+  }
+  .flexLogo h2 {
+    font-size: 20px;
+  }
+  #logo {
+    width: 90px;
+    height: 75px;
+  }
+  .projFlex {
+    row-gap: 40px;
+  }
+  .tiles {
+    flex-basis: 40%;
+  }
+  textarea {
+    width: 11em;
+  }
+  ul {
+    padding: 0;
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 30%;
+  }
+  ul li {
+    flex-basis: 20%;
+  }
+  #logo {
+    height: 100%;
+  }
+  ul li a {
+    font-size: 15px;
+  }
+}
+/* Media query for Mobile */
+@media screen and (max-width: 320px) {
+  .projFlex {
+    display: none;
+  }
+  .projBut {
+    display: block;
+  }
+  .flexLogo h2 {
+    font-size: 24px;
+  }
+  .mainImg {
+    display: none;
+  }
+  .flexLogo {
+    display: flex;
+    width: 100%;
+  }
+  .formFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .name {
+    margin-bottom: 50px;
+  }
+  .projTiles {
+    text-align: center;
+  }
+  .projTiles button {
+    background-color: #d9d9d9;
+    color: #000000;
+    border-radius: 0;
+    margin-top: 20px;
+    padding: 12px 40px;
+  }
+  .heroButtons {
+    width: 100vw;
+    margin: 20px auto;
+  }
+  .projects h2 {
+    font-size: 26px;
+  }
+  .formFlex label {
+    font-size: 16px;
+  }
+  button {
+    font-size: small;
+    padding: 5px 10px;
+  }
+  footer {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .pAlign {
+    font-size: 19px;
+    width: 100px;
+    line-height: 2;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  a {
+    font-size: 17px;
+  }
+
+  .flexLogo h2 {
+    font-size: 24px;
+  }
+
+  #logo {
+    width: 90px;
+    height: 75px;
+  }
+
+  .projFlex1 {
+    display: flex;
+  }
+  .tiles img {
+    flex: 50%;
+  }
+
+  .secondButton {
+    margin-right: 10px;
+  }
+  textarea {
+    width: 100%;
+  }
+  .name,
+  .email,
+  .formargin {
+    width: 100%;
+    text-align: center;
+  }
+  .projTiles button {
+    transition: all 0.2s linear;
+  }
+  .projTiles button:hover {
+    transform: scale(1.2, 1.2);
+  }
+  .navLinks li a {
+    font-size: 18px;
+  }
+  .flexhead {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #logo {
+    width: 50px;
+    height: 100%;
+  }
+  ul {
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 8px;
+  }
+  input {
+    width: 100%;
+  }
+  .btn {
+    font-size: small;
+  }
+}
