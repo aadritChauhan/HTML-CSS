@@ -1,0 +1,20 @@
+By:
+    Aadrit Chauhan
+    Udip Mandora
+
+
+Problems Faced:
+1) Creating image slider.
+2) Applying onmouseover on tile images in cards.
+3) Adding opacity to images linked in CSS(not html).
+4) Applying Dark mode.
+5) Making boxes in "similar       program section" of equal width.   
+
+
+Problems that still persist:
+
+1)Creating image slider but we alternatively applied scroll on it.
+2)Adding opacity to images linked in CSS(not html).
+3)Issue regarding dark mode:
+(https://stackoverflow.com/questions/74814622/while-applying-dark-mode-in-html-css-js-through-togglelist-i-dont-want-one-con).
+4) Making boxes in "similar       program section" of equal width.
