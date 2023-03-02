@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+* {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: beige;
+    
+}
+
+
+  .navbar{
+    width: 1024px;
+    height: 15vh;
+    margin: 0px;
+    padding: 0px; 
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+  }
+  nav ul li a{
+    color:cornflowerblue ;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  nav ul li a:hover{
+    color: lightcoral;
+  }
+  button{
+    border: none;
+    background: lightcoral;
+    border-radius: 10px;
+    padding: 10px 20px ;
+  }
+  button:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+  }
+  .logo a:link{
+    text-decoration: none;
+    color: lightcoral;
+    font-size: larger;
+    font-family: 'Oswald', sans-serif;
+    
+  }
+  .logo a:hover{
+    color: cornflowerblue;  
+  }
+
+  .flex{
+    display: flex;
+  }
+  .columnR img{
+    height: 220px;
+  }
+  
+
+header{
+    /* got this image from dreamstime.com  */
+    background-image: url(../images/blogImg.jpeg);
+    height: 20vh;
+}
+h1{
+    color: lightcoral;
+    position: relative;
+    left: 40%;
+    font-size: 3em;
+    background-color:transparent;
+    
+}
+h2{
+    color: cornflowerblue;
+    position: relative;
+    text-decoration: overline;
+    text-shadow: 8px 8px 4px lightblue;
+    
+}
+h3{
+    color: lightcoral;
+}
+#imgS{
+    width: 25%;
+    float: left;
+}
+p{
+    line-height: 2em;
+    text-align: center;
+}
+
+.txt{
+    
+    background-color: rgb(176, 217, 242) ;
+}
+.bot{
+    padding: 3em;
+    position: relative;
+    left: 30%;
+    
+    margin-top: 2em;
+    padding-bottom: 0.5em;
+}
+.btn{
+    margin-top: 1px;
+    padding: 0.5em 1.2em;
+    font-family: sans-serif;
+    font-size: larger;
+    background-color: burlywood;
+}
+.card p{
+    line-height: normal;
+}
+
+footer a:hover{
+  color: lightcoral;
+}
+input, textarea{
+    display: block;
+    padding: 10px;
+    margin: 10px;
+}
+input::placeholder, textarea::placeholder{
+    color: lightcoral;
+}
+.line{
+  border-top: dotted cornflowerblue ;
+}
+
